@@ -6,7 +6,7 @@ Contents referenced from [NGINX-Demos/hello](https://github.com/nginxinc/NGINX-D
 ### Assumptions
 - Run from CloudShell
     - Docker installed by default
-- Target Project with the following enabled:    
+- Target Project with the following APIs enabled:    
     - Compute Engine API
     - Kubernetes Engine API
     - Artifact Registry API
