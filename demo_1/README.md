@@ -32,3 +32,6 @@ Contents referenced from [NGINX-Demos/hello](https://github.com/nginxinc/NGINX-D
 2. Add host to credfile `gcloud auth configure-docker us-east1-docker.pkg.dev`
 3. Push to Artifactory `docker push us-east1-docker.pkg.dev/<project_id>/<repo>/gke-demo:latest`
 4. Go to [Repositories page](https://console.cloud.google.com/artifacts?_ga=2.195332204.1964474193.1647886615-787155117.1645886534) to see uploaded image
+
+
+Go to [Demo 2](../demo_2/readme.md)
