@@ -34,4 +34,4 @@ Contents referenced from [NGINX-Demos/hello](https://github.com/nginxinc/NGINX-D
 4. Go to [Repositories page](https://console.cloud.google.com/artifacts?_ga=2.195332204.1964474193.1647886615-787155117.1645886534) to see uploaded image
 
 
-Go to [Demo 2](https://github.com/albertwo1978/gke101-demos/blob/main/demo_2/README.md).
+Go to [Demo 2](https://github.com/albertwo1978/gke101-demos/tree/main/demo_2).

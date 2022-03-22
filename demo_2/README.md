@@ -28,4 +28,4 @@
     - `kubectl get all`
 7. Navigate to the GKE cluster in the GCP console, observe workload, services, etc. 
 
-Go to [Demo 3](https://github.com/albertwo1978/gke101-demos/blob/main/demo_3/README.md).
+Go to [Demo 3](https://github.com/albertwo1978/gke101-demos/tree/main/demo_3).
