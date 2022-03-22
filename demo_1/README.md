@@ -11,8 +11,8 @@ Contents referenced from [NGINX-Demos/hello](https://github.com/nginxinc/NGINX-D
     - Kubernetes Engine API
     - Artifact Registry API
 - Following services installed: 
-    - Default VPC Network
-    Artifact Registry created with a `demo` repo created in us-east1
+    - `default` VPC Network
+    - Artifact Registry created with a `demo` repo created in us-east1
 
 ### Steps
 #### Create Docker image and push to registry

@@ -11,21 +11,22 @@
     - <b>NOTE:</b> You should already have a precreated GKE cluster deployed and ready to move to the next step
 
 #### Deploy the container to the cluster
-1. Set the project `gcloud config set project <project_id>`
-2. Authenticate to the cluster `gcloud container clusters get-credentials <cluster_name> --region us-east1`
-3. Grant cluster permission to the Artifact Registry: 
+1. Clone repo and navigate to demo_2 folder
+2. Set the project `gcloud config set project <project_id>`
+3. Authenticate to the cluster `gcloud container clusters get-credentials <cluster_name> --region us-east1`
+4. Grant cluster permission to the Artifact Registry: 
     ```
     gcloud artifacts repositories add-iam-policy-binding demo \
         --location=us-east1 \
         --member=serviceAccount:<gke_service_account> \
         --role="roles/artifactregistry.reader"
     ```
-4. Modify `nginx.yaml`
-5. Deploy NGINX to GKE `kubectl apply -f nginx.yaml`
-6. Optional Commands: 
+5. Modify `nginx.yaml`
+6. Deploy NGINX to GKE `kubectl apply -f nginx.yaml`
+7. Optional Commands: 
     - `kubectl get deployments -w`
     - `kubectl get pods`
     - `kubectl get all`
-7. Navigate to the GKE cluster in the GCP console, observe workload, services, etc. 
+8. Navigate to the GKE cluster in the GCP console, observe workload, services, etc. 
 
 Go to [Demo 3](https://github.com/albertwo1978/gke101-demos/tree/main/demo_3).

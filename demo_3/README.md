@@ -6,10 +6,11 @@
 
 ### Steps
 #### Review and deploy changes to NGINX service
-1. Deploy NGINX to GKE `kubectl apply -f nginx.yaml`
-2. Review  `nginx.yaml`
+1. Clone repo and navigate to demo_3 folder
+2. Deploy NGINX to GKE `kubectl apply -f nginx.yaml`
+3. Review  `nginx.yaml`
     - Reference [here](https://cloud.google.com/kubernetes-engine/docs/how-to/load-balance-ingress#creating_an_ingress) for notes on the ingress config
-3. View the ingress settings `kubectl get ingress my-ingress --output yaml`
+4. View the ingress settings `kubectl get ingress my-ingress --output yaml`
     - Reference [here](https://cloud.google.com/kubernetes-engine/docs/how-to/load-balance-ingress#testing_the)
-4. Navigate to the GCLB settings, etc. 
-5. Navigate to GKE workload and briefly show [autoscaling](https://cloud.google.com/kubernetes-engine/docs/how-to/horizontal-pod-autoscaling#resource-utilization)
+5. Navigate to the GCLB settings, etc. 
+6. Navigate to GKE workload and briefly show [autoscaling](https://cloud.google.com/kubernetes-engine/docs/how-to/horizontal-pod-autoscaling#resource-utilization)
