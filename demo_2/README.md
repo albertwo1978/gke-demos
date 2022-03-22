@@ -21,9 +21,11 @@
         --role="roles/artifactregistry.reader"
     ```
 4. Modify `nginx.yaml`
-5. Deploy NGINX to GKE `kubectl apply -f nginx.yaml
+5. Deploy NGINX to GKE `kubectl apply -f nginx.yaml`
 6. Optional Commands: 
     - `kubectl get deployments -w`
     - `kubectl get pods`
     - `kubectl get all`
 7. Navigate to the GKE cluster in the GCP console, observe workload, services, etc. 
+
+Go to [Demo 3](https://github.com/albertwo1978/gke101-demos/blob/main/demo_3/README.md).
