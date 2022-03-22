@@ -1,1 +1,1 @@
-blah
+# Demo applications for GKE 101 session
