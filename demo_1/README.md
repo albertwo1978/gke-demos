@@ -28,9 +28,9 @@ Contents referenced from [NGINX-Demos/hello](https://github.com/nginxinc/NGINX-D
 6. Preview in CloudShell on port `8080`
 
 #### Push to Google Artifact Registry - Reference [here](https://cloud.google.com/artifact-registry/docs/docker/pushing-and-pulling#pushing)
-1. Tag the image `docker tag gke-demo us-east1-docker.pkg.dev/<project_id>/<repo>/gke-demo:latest`
+1. Tag the image `docker tag gke-demo us-east1-docker.pkg.dev/<project_id>/demo/gke-demo:latest`
 2. Add host to credfile `gcloud auth configure-docker us-east1-docker.pkg.dev`
-3. Push to Artifactory `docker push us-east1-docker.pkg.dev/<project_id>/<repo>/gke-demo:latest`
+3. Push to Artifactory `docker push us-east1-docker.pkg.dev/<project_id>/demo/gke-demo:latest`
 4. Go to [Repositories page](https://console.cloud.google.com/artifacts?_ga=2.195332204.1964474193.1647886615-787155117.1645886534) to see uploaded image
 
 
