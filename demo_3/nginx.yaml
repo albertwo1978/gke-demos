@@ -51,3 +51,10 @@ spec:
         image: us-east1-docker.pkg.dev/<project_id>/demo/gke-demo:latest
         ports:
         - containerPort: 80
+        resources:
+          requests:
+            memory: 32Mi #mebibytes
+            cpu: "500m"  #millicores
+          limits: 
+            memory: 32Mi
+            cpu: "1000m"
